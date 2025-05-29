@@ -103,16 +103,16 @@ else:
     logout_page = st.Page(logout, title="Cerrar sesión", icon=":material/logout:")
 
     
-    dashboard = st.Page("BACKEND/paginas/reports/dashboard.py", title="Dashboard", icon=":material/dashboard:")
-    bugs = st.Page("BACKEND/paginas/reports/bugs.py", title="Bug reports", icon=":material/bug_report:")
-    alerts = st.Page("BACKEND/paginas/reports/alerts.py", title="System alerts", icon=":material/notification_important:")
+    dashboard = st.Page("FRONTEND/paginas/reports/dashboard.py", title="Dashboard", icon=":material/dashboard:")
+    bugs = st.Page("FRONTEND/paginas/reports/bugs.py", title="Bug reports", icon=":material/bug_report:")
+    alerts = st.Page("FRONTEND/paginas/reports/alerts.py", title="System alerts", icon=":material/notification_important:")
 
-    search = st.Page("BACKEND/paginas/tools/search.py", title="Search", icon=":material/search:")
-    history = st.Page("BACKEND/paginas/tools/history.py", title="History", icon=":material/history:")
+    search = st.Page("FRONTEND/paginas/tools/search.py", title="Search", icon=":material/search:")
+    history = st.Page("FRONTEND/paginas/tools/history.py", title="History", icon=":material/history:")
 
-    imagen = st.Page("BACKEND/paginas/metodo/imagen.py", title="Imagen", icon=":material/photo_camera:")
-    video = st.Page("BACKEND/paginas/metodo/video.py", title="Video", icon=":material/movie:")
-    directo = st.Page("BACKEND/paginas/metodo/directo.py", title="Directo", icon=":material/videocam:")
+    imagen = st.Page("FRONTEND/paginas/metodo/imagen.py", title="Imagen", icon=":material/photo_camera:")
+    video = st.Page("FRONTEND/paginas/metodo/video.py", title="Video", icon=":material/movie:")
+    directo = st.Page("FRONTEND/paginas/metodo/directo.py", title="Directo", icon=":material/videocam:")
 
     # Estilos y navegación
     st.markdown(
@@ -132,7 +132,7 @@ else:
         unsafe_allow_html=True,
     )
 
-    st.logo("BACKEND/archivos/logo.png")
+    st.logo("archivos/logo.png")
 
     pg = st.navigation(
         {
