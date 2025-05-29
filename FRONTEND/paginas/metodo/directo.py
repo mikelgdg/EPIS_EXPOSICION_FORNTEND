@@ -10,7 +10,7 @@ import os
 dibujo_hecho = False
 json_subido = False
 informee = ""
-BACKEND_URL = "http://localhost:8000"
+BACKEND_URL = "https://epis-exposicion.onrender.com"
 clases_seleccionadas = []
 zona_json = []
 zona_canvas = []

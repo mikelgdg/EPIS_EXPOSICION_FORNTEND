@@ -11,7 +11,7 @@ dibujo_hecho = False
 json_subido = False  # ✅ NUEVO
 
 
-BACKEND_URL = "http://localhost:8000"
+BACKEND_URL = "https://epis-exposicion.onrender.com"
 
 clases_seleccionadas = []
 # Evita errores por variables no definidas
