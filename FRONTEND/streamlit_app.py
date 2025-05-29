@@ -137,7 +137,7 @@ else:
     pg = st.navigation(
         {
             "Inicio": [home_page, tutorial_page],
-            "Métodos": [imagen, video, directo],
+            "Métodos": [imagen, video], #directo],
             "Herramientas": [bugs, alerts],
             "Cuenta": [logout_page]
         }
